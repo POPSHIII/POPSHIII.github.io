@@ -4,16 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel ="stylesheet" href = "testagain.css">
+
+    <link rel="stylesheet" href="external.css">
+    
 </head>
 <body>
+
+  <h1> 
     <p>
-        This is shit
-    </p>
-    <div class = "box" >
-        <div class = "triangle">
-        </div>
-    </div>
-    
+    Student Form
+</p>
+  </h1>
+
+    <form >
+        <label>
+          Your Name*
+        </label>
+
+        <br>
+
+          <input type = "text" placeholder="Enter Your Name" name="psw" required class="design1">
+
+<br>
+
+          <label>
+          Email*
+        </label>
+
+<br>
+
+          <input type = "text" placeholder="Enter Email" name="eml" required class="design1">
+
+<br>
+
+          <label>
+          Contact No*
+        </label>
+
+ <br>
+
+          <input type = "text" placeholder="Enter your Contact No." name = "msg" required class="design1">
+
+<br>
+
+<label>
+          Home Adress*
+        </label>
+
+ <br>
+          <input type = "text" placeholder="Enter your Home Address" name = "msg" required class="design1">
+
+<br>
+
+<br>
+
+          <label>
+          Gender*
+        </label>
+
+<br>
+
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">MALE</label class = "Genderstuff"><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">FEMALE</label class = "Genderstuff"><br>
+
+        <br>
+
+<label for="birthday">Birthday:</label>
+<input type="date" id="birthday" name="birthday" class="bday">
+
+<br>
+        <br>
+
+        <label>
+        Preffered Course
+        </label>
+
+      <label for="course">Choose your course:</label>
+
+      <select name="Course" id="Course">
+      <option value="BSBA">BSBA</option>
+      <option value="BSIT">BSIT</option>
+      <option value="BSCE">BSCE</option>
+      <option value="BSITCST">BSCST</option>
+      <option value="BSA">BSA</option>
+      <option value="BSMT">BSMT</option>
+      <option value="BSN">BSN</option>
+      <option value="BAC">BAC</option>
+      <option value="BSIE">BSIE</option>
+      <option value="BSCS">BSCS</option>
+</select>
+
+<br>
+        
+        <br>
+        
+          <button> 
+            submit
+          </button>
+
+    </form>
 </body>
 </html>
