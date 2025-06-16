@@ -1,0 +1,37 @@
+.center-text {
+            text-align: center;
+        }
+        .name{
+              font-size: 24px;
+        }
+.imagereyj {
+     width: 300px;
+     height: 300px;
+    display: block; 
+    margin: 0 auto;
+}
+body {
+    text-align: center;
+    background-color: rgb(123, 202, 216);
+    background-image: url('https://upload.wikimedia.org/wikipedia/en/2/2d/Spider-Man_%28Ultimate_Marvel_character%29.png');
+    background-size: cover;
+}
+
+
+.btn{
+   background-color: #FFA500;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.container{
+    background-color: rgba(240, 255, 255, 0.425);
+            height: 750px;
+            width: 500px;
+            margin: auto;
+            text-align: center;
+}
